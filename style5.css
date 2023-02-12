@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    padding: 200px;
+}
+
+ .parent {
+    background-color: #fff;
+     width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    /** by default it is flex start */
+    /* justify-content: flex-end;*//** content is in end */
+     /* justify-content: center;  */  /** content is in center */
+    /* justify-content: space-between; */ /**one content is in left and another is in end  */
+    /*justify-content: space-around;*/ /**some space in left and right side , un equal sides in between ==> unevenly*/
+   justify-content: space-evenly;  /*  here all the spaces are equal in left , right and middle */
+    /* todo ==> boxes in four corner */
+    
+}
+
+.child {
+    background-color: rgb(36, 157, 36);
+    width: 200px;
+    height: 200px;
+} 
